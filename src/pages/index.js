@@ -8,7 +8,7 @@ import SEO from "../components/SEO/SEO"
 const IndexPage = () => (
   <div>
     <SEO title="Home" />
-      <p>Start developing gatsby frontend App for WordPress site!</p>
+      <p>Start developing Gatsby frontend App for WordPress site!</p>
   </div>
 )
 
