@@ -1,15 +1,15 @@
 import * as React from "react"
-
+import Layout from "../components/Layout/Layout"
 import SEO from "../components/SEO/SEO"
 
 
 
 
 const IndexPage = () => (
-  <div>
+  <Layout>
     <SEO title="Home" />
-      <p>Start developing Gatsby frontend App for WordPress site!</p>
-  </div>
+    <h4>Start developing lightning fast frontend for WordPress sites with Gatsby!</h4>
+  </Layout>
 )
 
 export const Head = () => <SEO title="Home" />
