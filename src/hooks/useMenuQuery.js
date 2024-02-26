@@ -9,7 +9,7 @@ const useMenuQuery = () => {
         title
       }
     }
-    wpMenu(menuItems: {}, name: {eq: "mainMenu"}) {
+    menu: wpMenu(menuItems: {}, name: {eq: "mainMenu"}) {
       menuItems {
         nodes {
           label

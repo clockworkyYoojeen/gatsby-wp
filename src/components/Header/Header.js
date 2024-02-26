@@ -6,16 +6,14 @@ import { Wrapper, Content } from './Header.styles'
 import Navigation from '../Navigation/Navigation'
 
 const Header = () => {
-  const {site, wpMenu} = useMenuQuery()
-  console.log(site)
-  console.log(wpMenu)
+  const {site, menu} = useMenuQuery()
   return (
     <Wrapper>
       <Content>
         <Link to="/">
             <img src={Logo} alt={site.siteMetadata.title} />
         </Link>
-        <Navigation menu={wpMenu.menuItems.nodes} />
+        <Navigation menu={menu.menuItems.nodes} />
       </Content>
     </Wrapper>
   )
