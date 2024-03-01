@@ -5,11 +5,11 @@ import CloseButton from "../../images/close_btn.svg"
 import useMenuQuery from "../../hooks/useMenuQuery"
 import { Overlay } from "./OverlayMenu.styles"
 
-const OverlayMenu = ({ menuOpen, callback }) => {
+const OverlayMenu = ({ menuopen, callback }) => {
   const { site, menu } = useMenuQuery()
 
   return (
-    <Overlay menuOpen={menuOpen}>
+    <Overlay menuOpen={menuopen}>
       <div className="inner">
         <img className="invertedLogo" src={InvertedLogo} alt="white-logo" />
         <ul className="overlayMenu">
